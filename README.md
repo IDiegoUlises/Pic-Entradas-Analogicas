@@ -10,7 +10,7 @@
 void main()
 {
    setup_adc_ports(all_analog); //TODOS LOS PUERTOS ANALOGICOS COMO ANALOGICOS YA QUE NO PUDE UTILIZAR AN1 O AN0 PARA DECLRAR
-   setup_adc(adc_clock_internal);
+   setup_adc(adc_clock_internal); //UTILIZA EL RELOJ INTERNO
    set_adc_channel(0); //NO ESTOY SEGURO DE ESTO PERO SE SUPONE QUE SE ELIGE EL CANAL 0 QUE EQUIVALE AL PUERTO AN0
    
    while(true)
