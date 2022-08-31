@@ -1,5 +1,6 @@
 # Pic Entradas Analogicas
 
+```c
 #include <16f887.h> //Nombre del microcontrolador
 #device ADC = 10 //10 bits de resolucion
 #fuses xt,nowdt  //para osciladores de 4 MegaHertz se usa xt para mayores usa hs
@@ -17,3 +18,4 @@ void main()
       int valor = read_adc(); //REALIZA LA LECTURA DEL PUERTO AN0 NO ESTOY SEGURO
    }
 }
+```
