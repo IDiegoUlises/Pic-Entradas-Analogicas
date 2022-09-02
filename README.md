@@ -9,13 +9,13 @@
 
 void main()
 {
-   setup_adc_ports(all_analog); //TODOS LOS PUERTOS ANALOGICOS COMO ANALOGICOS YA QUE NO PUDE UTILIZAR AN1 O AN0 PARA DECLRAR
-   setup_adc(adc_clock_internal); //UTILIZA EL RELOJ INTERNO
-   set_adc_channel(0); //NO ESTOY SEGURO DE ESTO PERO SE SUPONE QUE SE ELIGE EL CANAL 0 QUE EQUIVALE AL PUERTO AN0
+   setup_adc_ports(all_analog); //Todos los puertos se seleccionan como analogicos
+   setup_adc(adc_clock_internal); //Utiliza el reloj interno
+   set_adc_channel(0); //Selecciona el canal este equivale a AN0
    
    while(true)
    {
-      int valor = read_adc(); //REALIZA LA LECTURA DEL PUERTO AN0 NO ESTOY SEGURO
+      int valor = read_adc(); //Realiza una lectura analogica
    }
 }
 ```
