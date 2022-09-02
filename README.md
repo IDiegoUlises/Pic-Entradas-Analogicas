@@ -1,5 +1,7 @@
 # Pic Entradas Analogicas
 
+### Codigo De Una Lectura Analogica
+
 ```c
 #include <16f887.h> //Nombre del microcontrolador
 #device ADC = 10 //10 bits de resolucion
