@@ -2,6 +2,12 @@
 
 <img src="https://github.com/IDiegoUlises/Pic-Entradas-Analogicas/blob/main/Images/16f887-Pic.png"  />
 
+* **Los Pines AN0 hasta AN12 funcionan como entradas analogicas**
+* Vdd: Positivo del microcontrolador
+* Vss: Negativo del microcontrolador
+* Clkin: Osicilador conectado a negativo
+* Clkout: Osicilador conectado a negativo
+
 ### Codigo De Una Lectura Analogica
 
 ```c
