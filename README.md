@@ -1,4 +1,4 @@
-# Pic Entradas Analogicas
+# Pic 16F887 Entradas Analogicas
 
 <img src="https://github.com/IDiegoUlises/Pic-Entradas-Analogicas/blob/main/Images/16f887-Pic.png"  />
 
